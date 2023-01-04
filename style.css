@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: montserrat;
+  box-shadow: 0px, 0px rgba(0, 0, 0, 0.1);
+}
+body {
+  background-color: #f3f1f1;
+}
+.container {
+  display: grid;
+  grid-template-rows: 0fr 1fr;
+  gap: 40px;
+  max-width: 1046px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fst-part {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-left: 20px;
+  max-width: 100%;
+  height: 311px;
+  border: white solid 1px;
+  background-color: white;
+  border-radius: 12px;
+}
+.fst-right {
+  max-width: 95%;
+  margin-top: 22px;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+.myimg {
+  width: 300px;
+  height: 267px;
+  margin-left: 22px;
+  margin-top: 22px;
+  margin-right: 50px;
+}
+h1 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+.fp {
+  margin-bottom: 20px;
+}
+article {
+  max-width: 85%;
+}
+.upright {
+  margin-right: 20px;
+}
+.middle-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 1180px;
+}
+.middle-left {
+  display: grid;
+  grid-template-rows: 0fr 0fr;
+  padding-left: 20px;
+  height: 1180px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 17px;
+}
+.skills {
+  width: 90%;
+  height: 303px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+#front {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.list-bar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin-left: 20px;
+}
+.hobbies {
+  margin-top: 42px;
+  border: 1px solid white;
+  width: 90%;
+  align-content: center;
+  height: 836px;
+  background-color: white;
+  border-radius: 12px;
+}
+#hob {
+  margin-left: 22px;
+  margin-top: 22px;
+  margin-bottom: 26px;
+}
+.gcb {
+  margin-left: 22px;
+  margin-top: 26px;
+}
+.hb {
+  width: 100%;
+  padding-right: 20px;
+  height: 139px;
+}
+.hp {
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+.ing {
+  margin-bottom: 20px;
+}
+.middle-right {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 42px;
+}
+.blog {
+  width: 596px;
+  height: 656px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+.mrup {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 50px;
+}
+#bh {
+  margin-left: 20px;
+}
+#mrimg {
+  width: 380px;
+  height: 321px;
+  margin-left: 39px;
+}
+.bg {
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+a {
+  margin-left: 20px;
+}
+.exp {
+  border: 1px solid white;
+  padding-left: 20px;
+  height: 482px;
+  background-color: white;
+  border-radius: 12px;
+}
+.job {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+.jobimg {
+  width: 119px;
+  height: 84px;
+}
+.worktime {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.position {
+  font-weight: bolder;
+  font-size: 16px;
+  margin-bottom: 33px;
+}
+.text1 {
+  font-size: 16px;
+  color: gray;
+}
+.lower-part {
+  display: grid;
+  grid-template-rows: 0fr 1fr 0fr;
+  width: 1045px;
+}
+.des {
+  background-color: white;
+  border-radius: 12px;
+}
+.choices {
+  margin-bottom: 22px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.des {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.choices {
+  margin-top: 16px;
+}
+.proj {
+  margin-top: 36px;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 568px;
+  background-color: white;
+  border-radius: 12px;
+  width: 95%;
+}
+.gallery {
+  justify-self: center;
+}
+.checkout {
+  justify-self: end;
+}
+.projimg {
+  margin-bottom: 24px;
+  width: 292px;
+  height: 217px;
+  padding-right: 18px;
+}
+.hashtags {
+  margin-bottom: 22px;
+}
+.projtext {
+  margin: 18px 0 41px 0;
+  font-size: 16px;
+}
+.but {
+  width: 135px;
+  height: 46px;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+}
+button:active {
+  background-color: white;
+  box-shadow: none;
+  color: #2f80ed;
+  border-color: white;
+}
+.pages {
+  justify-self: end;
+  margin-top: 36px;
+}
+.pagenum {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  color: white;
+  background-color: #2f80ed;
+  border-color: #2f80ed;
+}
+.projtext {
+  width: 90%;
+}
+footer {
+  margin-top: 147px;
+  margin-left: 40%;
+  font-family: "Montserrat", sans-serif;
+  color: #828282;
+}
